@@ -3,21 +3,90 @@ $(document).ready(function () {
     slidesToShow: 4,
     slidesToScroll: 1,
     // accessibility:false,
-    draggable:false
+    draggable:false,
+    responsive: [
+      {
+        breakpoint: 1180,
+        settings: {
+          arrows: false,
+          slidesToShow: 3
+        }
+      },
+       { breakpoint: 900,
+        settings: {
+          arrows: false,
+          slidesToShow: 2
+        }
+      },
+       { breakpoint: 500,
+        settings: {
+          arrows: false,
+          slidesToShow: 1,
+          centerMode: true,
+          centerPadding: '30px',
+        }
+      }
+    ]
   })
   $('.popular-item__list').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     // accessibility:false,
-    draggable:false
+    draggable:false,
+    responsive: [
+      {
+        breakpoint: 1180,
+        settings: {
+          arrows: false,
+          slidesToShow: 3
+        }
+      },
+       { breakpoint: 900,
+        settings: {
+          arrows: false,
+          slidesToShow: 2
+        }
+      },
+       { breakpoint: 500,
+        settings: {
+          arrows: false,
+          slidesToShow: 1,
+          centerMode: true,
+          centerPadding: '30px',
+        }
+      }
+    ]
   })
   $('.new__list').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
-    // accessibility:false,
+    // variableWidth: true,
     draggable:false,
     rows:2,
-    adaptiveHeight:true
+    adaptiveHeight:true,
+    responsive: [
+      {
+        breakpoint: 1180,
+        settings: {
+          arrows: false,
+          slidesToShow: 3
+        }
+      },
+       { breakpoint: 900,
+        settings: {
+          arrows: false,
+          slidesToShow: 2
+        }
+      },
+       { breakpoint: 500,
+        settings: {
+          arrows: false,
+          slidesToShow: 1,
+          centerMode: true,
+          centerPadding: '20px',
+        }
+      }
+    ]
   })
 });
 // Atachment nav bar Я думаю это тупая идея
