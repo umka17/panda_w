@@ -89,23 +89,6 @@ $(document).ready(function () {
     ]
   })
 });
-// Atachment nav bar Я думаю это тупая идея
-// window.onscroll = function() {myFunction()};
-
-// // Get the header
-// var header = document.querySelector('.nav-list')
-
-// // Get the offset position of the navbar
-// var sticky = header.offsetTop;
-
-// // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-// function myFunction() {
-//   if (window.pageYOffset > sticky) {
-//     header.classList.add("fixed");
-//   } else {
-//     header.classList.remove("fixed");
-//   }
-// }
 
 function smoothScroll(target, duration){
   var target = document.querySelector(target);
@@ -183,4 +166,4 @@ popularItemF.addEventListener('click' , function(){
 });
 
 
-// smoothScroll('.sale', 2000)
+
